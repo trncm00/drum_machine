@@ -44,12 +44,12 @@ for line in file:
 beat_name = ''
 typing = False
 
-hi_hat = mixer.Sound('sounds\\hi hat.wav')
-snare = mixer.Sound('sounds\\snare.wav')
-bass = mixer.Sound('sounds\\bass (19).WAV')
-crash = mixer.Sound('sounds\\cymbal (1).wav')
-floorTom = mixer.Sound('sounds\\tom.wav')
-clap = mixer.Sound('sounds\\clap.wav')
+hi_hat = mixer.Sound('sounds/hi hat.wav')
+snare = mixer.Sound('sounds/snare.wav')
+bass = mixer.Sound('sounds/bass (19).wav')
+crash = mixer.Sound('sounds/cymbal (1).wav')
+floorTom = mixer.Sound('sounds/tom.wav')
+clap = mixer.Sound('sounds/clap.wav')
 pygame.mixer.set_num_channels(instruments * 3)  # workaround solution for problem described around
 
 
